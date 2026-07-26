@@ -1,8 +1,6 @@
 n = int(input("Enter a number: "))
-
+COUNT = 0
 while n > 0:
-    ld = n % 10
-    print(ld)
+    COUNT += 1
     n = n // 10
-
-print("Done")
+print("Number of digits:", COUNT)
