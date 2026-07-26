@@ -4,6 +4,7 @@ Time Complexity: O(N)
 Space Complexity: O(K) where K is the number of factors
 """
 
+
 def get_factors(n: int) -> list[int]:
     """Returns a list of all factors of integer n."""
     factors = []

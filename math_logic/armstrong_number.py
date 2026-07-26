@@ -5,6 +5,6 @@ class Solution:
         total = 0
         while num > 0:
             ld = num % 10
-            total = total + (ld ** nod)
+            total = total + (ld**nod)
             num = num // 10
         return total == n
