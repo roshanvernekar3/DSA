@@ -17,7 +17,17 @@ This repository documents my problem-solving journey across core computer scienc
 - **Clean Code Standards:** Following industry best practices and PEP 8 guidelines.
 
 ---
+### 🧮 Math & Logic (`math_logic/`)
 
+| Problem / Topic | File | Time Complexity | Space Complexity | Difficulty |
+| :--- | :--- | :---: | :---: | :---: |
+| **Armstrong Number** | [`armstrong_number.py`](./math_logic/armstrong_number.py) | $O(\log_{10} N)$ | $O(1)$ | `Easy` |
+| **Count Digits** | [`count_digits.py`](./math_logic/count_digits.py) | $O(\log_{10} N)$ | $O(1)$ | `Easy` |
+| **Factors of a Number** | [`factors_of_num.py`](./math_logic/factors_of_num.py) | $O(N)$ | $O(K)$ | `Easy` |
+| **Palindrome Number** | [`palindrome.py`](./math_logic/palindrome.py) | $O(\log_{10} N)$ | $O(1)$ | `Easy` |
+| **Print Digits in Reverse** | [`print_digits_reverse.py`](./math_logic/print_digits_reverse.py) | $O(\log_{10} N)$ | $O(1)$ | `Easy` |
+
+---
 ## 🗂️ Project Structure
 
 ```text
