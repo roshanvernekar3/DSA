@@ -58,4 +58,3 @@ class Solution:
     def reverseSubArray(self, arr, l, r):
         self.func(arr, l - 1, r - 1)
         return arr
-	
