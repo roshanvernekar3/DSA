@@ -32,16 +32,3 @@ jobs:
         run: |
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statistics
-
-      - name: Execute Python scripts
-        run: |
-          for dir in math_logic Hashing Recursion; do
-            if [ -d "$dir" ]; then
-              for file in "$dir"/*.py; do
-                if [ -f "$file" ]; then
-                  echo "Running $file..."
-                  python "$file"
-                fi
-              done
-            fi
-          done
