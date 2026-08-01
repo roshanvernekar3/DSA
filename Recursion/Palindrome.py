@@ -1,5 +1,6 @@
 # Using Recursion to check if a string is a palindrome
 
+
 def is_palindrome(s, left, right):
     if left >= right:
         return True
@@ -7,6 +8,7 @@ def is_palindrome(s, left, right):
     if s[left] != s[right]:
         return False
     return is_palindrome(s, left + 1, right - 1)
+
 
 s = input("Enter a string: ")
 
